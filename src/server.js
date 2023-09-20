@@ -15,8 +15,10 @@ const server = async () => {
     //Establish Database connection
     console.log(`Testing connection`);
     await sequelize.authenticate();
-    console.log(`Connected Successfully`);
+
+    //Syncing tables
     app.use(sync);
+
     //Set Route
     app.use('/todos', todoRouter);
 
