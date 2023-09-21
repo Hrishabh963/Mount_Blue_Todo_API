@@ -35,6 +35,12 @@ Before running this application, you need to set up the necessary environment va
 - PASSWORD=your_postgres_user_password
 - DATABASE=your_database_name
 **Note:** Ensure that you keep your `.env` file secure and do not commit it to version control systems like Git, as it may contain sensitive information like database credentials.
+
+# Starting the server
+```bash
+node src/server.js
+```
+
 # API Endpoints
 
 Fetch all todos
