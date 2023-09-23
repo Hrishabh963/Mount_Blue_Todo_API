@@ -34,6 +34,8 @@ Before running this application, you need to set up the necessary environment va
 - USER=your_postgres_username
 - PASSWORD=your_postgres_user_password
 - DATABASE=your_database_name
+- HOST=your_host_address
+- DIALECT=your_database_type (example:- postgres,mysql,mssql,etc)
 **Note:** Ensure that you keep your `.env` file secure and do not commit it to version control systems like Git, as it may contain sensitive information like database credentials.
 
 # Starting the server
